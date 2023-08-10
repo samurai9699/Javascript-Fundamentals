@@ -22,7 +22,7 @@ console.log(Math.random()); //prints a random number betweeen 0 & 1
 
 console.log(Math.random()* 50); //prints a random number betweeen 0 & 50
 
-console.log(Math.floor(Math.random()* 50)); //prints a random wWHOLE number between 0 & 50
+console.log(Math.floor(Math.random()* 50)); //prints a random WHOLE number between 0 & 50
 
 console.log(Math.ceil(43.2)); //prints the smallest integer greater than or equal to the given number
 
@@ -70,7 +70,7 @@ console.log(gainedDollar);                             console.log(lostDollar);
  
  //string concatenation with variables
 let favoriteAnimal = 'cats';
-console.log('My favorite animal:' + favoriteAnimal);
+console.log('My favorite animals are' + ' ' + favoriteAnimal);
 //output:My favorite animal:cats
 
 
@@ -78,7 +78,7 @@ console.log('My favorite animal:' + favoriteAnimal);
 let myName = "Sam";
 let myCountry = "Japan";
 
-console.log(`My name is ${myName}. My favorite city is ${myCountry}.`);
+console.log(`My name is ${myName}. My favorite country is ${myCountry}.`);
 //output:My name is Sam. My favorite country is Japan.
 
 
@@ -98,9 +98,7 @@ console.log('Time to buy!');
 
 
 //If Else Statement
-let sale = true;
-
-sale = false;
+let sale = false;
 
 if(sale) {
 console.log('Time to buy!');
@@ -108,11 +106,11 @@ console.log('Time to buy!');
 else{
 console.log('Time to wait for a sale.');
 }
-//output:Timne to wait for a sale
+//output:Time to wait for a sale
 
 
 //comparison Operators
-let hungerLevel =7;
+let hungerLevel = 7;
 if(hungerLevel > 7){
 console.log('Time to eat!');
 }
@@ -164,9 +162,7 @@ let writingUtensil = tool || 'pen'
 console.log(`The ${writingUtensil} is mightier than the sword.`);
 //output:The pen is mightier than the sword.
 
-
 let toop = 'marker';
-
 // Use short circuit evaluation to assign  writingUtensil variable below:
 let writeUtensil = toop || 'pen'
 
@@ -208,7 +204,7 @@ else if(season === 'winter'){
   console.log('It\'s winter! Everything is covered in snow.');
 }
 else {
-  console.log('Invalid season.');
+  console.log('It\'s summer! Time to enjoy swimming.');
 }
 //output:Invalid season
 

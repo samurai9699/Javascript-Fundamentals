@@ -1,5 +1,3 @@
-
-
 let lovescore = Math.random() * 100;
 lovescore = Math.floor(lovescore) + 1;
 
